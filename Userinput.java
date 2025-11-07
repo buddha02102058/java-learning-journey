@@ -1,0 +1,22 @@
+
+import java.util.Scanner;
+
+public class Userinput {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter a number");
+        int user_input_number = scan.nextInt();
+
+        System.out.println("The entered number is:");
+        System.out.print(user_input_number);
+
+
+        System.out.println("Enter a Decimal");
+        double user_input_double = scan.nextDouble();
+
+        System.out.println("The entered number is:");
+        System.out.print(user_input_double);
+
+    }
+}
