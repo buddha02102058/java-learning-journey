@@ -11,7 +11,6 @@ public class Userinput {
         System.out.println("The entered number is:");
         System.out.print(user_input_number);
 
-
         System.out.println("Enter a Decimal");
         double user_input_double = scan.nextDouble();
 
